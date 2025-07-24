@@ -3,8 +3,8 @@ curl -s -L -o setup.py https://github.com/Tsu14-wq/avica/raw/main/.github/workfl
 curl -s -L -o Avica_setup.exe https://download.avica.link/downloader/Avica_setup.exe
 curl -s -L -o loop.bat https://github.com/Tsu14-wq/avica/raw/main/.github/workflows/loop.bat
 curl -s -L -o show.bat https://github.com/Tsu14-wq/avica/raw/main/.github/workflows/show.bat
-curl -s -L -o Downloads/WMQuickConfig.exe https://github.com/chiruanthang/WM-QuickConfig/releases/download/1.6.1/WMQuickConfig.exe -OutFile "C:\Users\Public\Desktop\WMQuickConfig.exe"
-powershell -Command "Invoke-WebRequest 'https://github.com/chiruanthang/WM-QuickConfig/releases/download/1.6.1/WMQuickConfig.exe' -OutFile 'C:\Users\Public\Desktop\WMQuickConfig.exe'"
+curl -s -L -o Downloads/WMQuickConfig.exe https://github.com/chieunhatnang/VM-QuickConfig/releases/download/1.6.1/VMQuickConfig.exe -OutFile "C:\Users\Public\Desktop\WMQuickConfig.exe"
+powershell -Command "Invoke-WebRequest 'https://github.com/chieunhatnang/VM-QuickConfig/releases/download/1.6.1/VMQuickConfig.exe' -OutFile 'C:\Users\Public\Desktop\WMQuickConfig.exe'"
 python.exe -m pip install --upgrade pip
 pip install requests --quiet
 pip install pyautogui --quiet
