@@ -20,4 +20,3 @@ net user runneradmin Tsubasa0235
 python -c "import pyautogui as pag; pag.click(897, 64, duration=2)"
 start "" "Avica_setup.exe"
 python setup.py
-call well.bat
